@@ -13,3 +13,27 @@ Try HELM_VERSION="v3.8.0"
 
 You can run cloud build directly on a Dockerfile without using a cloudbuild file
     gcloud builds submit --tag us-east4.pkg.dev/${GCP_PROJECT_ID}/cloud-shell-repo/cloud-shell-image:latest
+
+
+Customize cloudshell container.
+
+  https://cloud.google.com/shell/docs/customizing-container-image
+
+
+  gcloud source repos list
+
+  export CUSTOM_ENV_REPO_ID=cloud-shell-custom-images
+  export CUSTOM_ENV_PROJECT_ID=gke-fed-dev-e9a1
+
+  cloudshell env build-local
+
+https://cloud.google.com/build/docs/build-debug-locally
+https://cloud.google.com/shell/docs/customizing-container-image
+
+  359  cloudshell env build-local
+  360  vi Dockerfile
+  361  git add Dockerfile
+  362  git commit -m "Add comment"
+  363  git push
+  365  gcloud env build-local
+  371  cloudshell env push
