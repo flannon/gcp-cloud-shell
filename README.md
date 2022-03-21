@@ -5,7 +5,7 @@ Get the project id,
 
 
 ## Pitching to yourself
-Build a new cloud shell image then bot the image and log in.
+Build a new cloud shell image then boot the image and log in.
 
 Try HELM_VERSION="v3.8.0"
 3.5.0 should be supported
@@ -37,3 +37,6 @@ https://cloud.google.com/shell/docs/customizing-container-image
   363  git push
   365  gcloud env build-local
   371  cloudshell env push
+
+
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/flannon/gcp-cloud-shell.git/+/master:)
