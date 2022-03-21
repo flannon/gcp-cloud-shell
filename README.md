@@ -37,6 +37,7 @@ https://cloud.google.com/shell/docs/customizing-container-image
   363  git push
   365  gcloud env build-local
   371  cloudshell env push
+       cloudshell env run
 
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/flannon/gcp-cloud-shell.git/+/master:)
