@@ -22,7 +22,7 @@ Customize cloudshell container.
 
   gcloud source repos list
 
-  export CUSTOM_ENV_REPO_ID=cloud-shell-custom-images
+  export CUSTOM_ENV_REPO_ID=cloud-shell-custom-images // This is image name
   export CUSTOM_ENV_PROJECT_ID=gke-fed-dev-e9a1
 
   cloudshell env build-local
