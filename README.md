@@ -4,7 +4,7 @@ Get the project id,
 
 
 
-## Pitching to yourself
+##  
 Build a new cloud shell image then boot the image and log in.
 
 Try HELM_VERSION="v3.8.0"
